@@ -7,7 +7,7 @@ export function ReposCard({repos}:{repos:IRepos}) {
 
       const {addFavoutite,removeFavoutite} = useActions()
       const {favourites} = useAppSelector(state => state.github)
-
+ 
    const [isFva,setIsFav] = useState(favourites.includes(repos.html_url))
 
     const addToFavourite =(event:React.MouseEvent<HTMLButtonElement>) =>{
