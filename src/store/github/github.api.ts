@@ -27,6 +27,11 @@ export const githubApi = createApi({
             }),
        // transformResponse:(response:ServerResponse<IUser>)=>response.items
         }),
+
+
+        //для отправки данных на сервер
+       /// createUser:build.mutation<any,void>({query:()=>{}})
+       
     })
 })
 
