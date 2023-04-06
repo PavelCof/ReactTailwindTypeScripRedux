@@ -45,7 +45,7 @@ export function HomePage() {
                     }
                     <div className="container">
                         {usLoad && <div className=" text-center ">  Репозитории загружаются... </div>}
-                      
+                        
                         {UsRepos?.map(repos=> <ReposCard repos={repos} key={repos.id}/>)} 
                         
                     </div>
